@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IlacFirmasi//IlacHatirlatici//TR
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+UID:ilac-hatirlatici-07-0001@ilacfirmasi.com
+DTSTAMP:20250101T050000Z
+SUMMARY:İlacınızı alın
+DESCRIPTION:Bu hatırlatıcı her gün sabah 07:00'de ilacınızı almanızı hatırlatır.
+DTSTART:20250101T070000
+DTEND:20250101T071000
+RRULE:FREQ=DAILY
+END:VEVENT
+
+END:VCALENDAR
