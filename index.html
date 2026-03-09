@@ -105,6 +105,16 @@
             color: #111827;
         }
 
+		.btn-video {
+    background: #10b981;
+    color: #ffffff;
+}
+
+@media (hover:hover) {
+    .btn-video:hover {
+        background: #059669;
+    }
+}
         .hint {
             font-size: 0.8rem;
             color: #6b7280;
@@ -163,6 +173,12 @@
         <div class="hint">
             Bu dosyayı açtığınızda telefonunuz ilacı hatırlatacak takvim etkinliği eklemenizi isteyecek.
         </div>
+
+		<a class="btn btn-video"
+   href="#"
+   onclick="gtag('event','video_click'); return false;">
+    📼 Bilgilendirme videosunu izle
+</a>
 
         <div class="footer-text">
             Sağlık profesyonelinize danışmadan ilaç kullanımınızı değiştirmeyin.
